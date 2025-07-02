@@ -1,1 +1,8 @@
-key: value
+include_top: False
+weights: imagenet
+input_shape: [240,240,3]
+pooling: avg
+classes: 2
+learning_rate: 0.001
+ca: softmax
+name: efficientnetb1
