@@ -5,7 +5,7 @@ dvc
 notebook
 numpy
 matplotlib
-seaborntivate
+seaborn
 python-box
 pyYAML
 tqdm
@@ -15,4 +15,5 @@ types-pyYAML
 scipy
 Flask
 Flask-Cors
+requests
 -e .

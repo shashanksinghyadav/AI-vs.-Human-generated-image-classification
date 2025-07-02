@@ -4,7 +4,7 @@ with open("README.md",'r',encoding='utf-8') as f:
 __version__="0.0.0"
 REPO_NAME="AI-vs.-Human-generated-image-classification"
 AUTHOR_USER_NAME="shashanksinghyadav"
-SRC_REPO="cnnClassifier"
+SRC_REPO="CNNclassifier"
 AUTHOR_EMAIL="shashank.eee22@iitbhu.ac.in"
 setuptools.setup(
     name=SRC_REPO,
@@ -19,3 +19,4 @@ setuptools.setup(
     package_dir={"":"src"},
     packages=setuptools.find_packages(where="src")
 )
+
