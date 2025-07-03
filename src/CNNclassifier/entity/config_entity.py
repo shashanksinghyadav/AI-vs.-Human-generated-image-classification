@@ -22,3 +22,12 @@ class PrepareBaseModelConfig:
     params_pooling: str
     params_name: str
     params_ca: str
+
+
+
+
+@dataclass(frozen=True)
+class PrepareCallbacksConfig:
+    root_dir: Path
+    tensorboard_root_log_dir: Path
+    checkpoint_model_filepath: Path
